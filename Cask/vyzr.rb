@@ -1,13 +1,13 @@
 cask "vyzr" do
-  version "0.9.0"
+  version "0.9.1"
 
   on_arm do
-    url "https://github.com/cordfuse/vyzr/releases/download/v0.9.0/Vyzr-#{version}-arm64.dmg"
-    sha256 "f2f4fcec9e36dea251ca3a7f68297eeb8fdf200b73a9f11375590be0b2232b00"
+    url "https://github.com/cordfuse/vyzr/releases/download/v0.9.1/Vyzr-#{version}-arm64.dmg"
+    sha256 "265091e145c453f37315d096074edf8e25ab1418848f2d9d82eb349b4cce1649"
   end
   on_intel do
-    url "https://github.com/cordfuse/vyzr/releases/download/v0.9.0/Vyzr-#{version}.dmg"
-    sha256 "735521dcef7dc6f2823109c63d1b7cad76251c82c5f25e6f25d4b9f2a24cc068"
+    url "https://github.com/cordfuse/vyzr/releases/download/v0.9.1/Vyzr-#{version}.dmg"
+    sha256 "80b3b979710eb849c1b223722e16f91488b7a86ae7ca0910d8687ebb33435936"
   end
 
   name "Vyzr"
