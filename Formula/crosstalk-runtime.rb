@@ -1,28 +1,28 @@
 class CrosstalkRuntime < Formula
   desc "AI agent messaging daemon for Crosstalk transports"
   homepage "https://github.com/cordfuse/crosstalk-runtime"
-  version "3.0.0"
+  version "3.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/cordfuse/crosstalk-runtime/releases/download/v#{version}/crosstalk-darwin-arm64"
-      sha256 "PLACEHOLDER_DARWIN_ARM64"
+      sha256 "3188e9183e608181186c006234db45204317a9f9095530442b435217cc4bffae"
     end
     on_intel do
       url "https://github.com/cordfuse/crosstalk-runtime/releases/download/v#{version}/crosstalk-darwin-x64"
-      sha256 "PLACEHOLDER_DARWIN_X64"
+      sha256 "b166e709f2096901f16f51dfeda408fd0f80365e728724fb2641a0d1815af122"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/cordfuse/crosstalk-runtime/releases/download/v#{version}/crosstalk-linux-x64"
-      sha256 "PLACEHOLDER_LINUX_X64"
+      sha256 "658d51f9bfc7dfc8265a166cde20483251f5a72d4206bfc702202f36f5afab05"
     end
     on_arm do
       url "https://github.com/cordfuse/crosstalk-runtime/releases/download/v#{version}/crosstalk-linux-arm64"
-      sha256 "PLACEHOLDER_LINUX_ARM64"
+      sha256 "1c6b812c23c43dbdc8a77f71c853e0a1f83be10bb2e2749fdf60356265acdd29"
     end
   end
 
