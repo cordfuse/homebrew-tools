@@ -1,7 +1,7 @@
 class CrosstalkRuntime < Formula
   desc "AI agent messaging daemon for Crosstalk transports"
   homepage "https://github.com/cordfuse/crosstalk-runtime"
-  version "3.9.6"
+  version "3.10.0"
   license "MIT"
 
   on_macos do
