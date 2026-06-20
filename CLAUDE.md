@@ -1,5 +1,5 @@
 <!-- parent: librarian -->
-# homebrew-cordfuse
+# homebrew-tools
 
 Homebrew tap for Cordfuse tools. One formula per Cordfuse project.
 
@@ -15,4 +15,4 @@ Create a new `.rb` in `Formula/`. Each project's release pipeline should update 
 
 ## Tap
 
-`brew tap cordfuse/cordfuse` → maps to this repo (`cordfuse/homebrew-cordfuse`).
+`brew tap cordfuse/tools` → maps to this repo (`cordfuse/homebrew-tools`).
