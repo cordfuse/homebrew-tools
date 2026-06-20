@@ -1,11 +1,11 @@
-# homebrew-cordfuse
+# homebrew-tools
 
 Homebrew tap for [Cordfuse](https://github.com/cordfuse) tools.
 
 ## Usage
 
 ```bash
-brew tap cordfuse/cordfuse
+brew tap cordfuse/tools
 ```
 
 Then install any Cordfuse tool:
