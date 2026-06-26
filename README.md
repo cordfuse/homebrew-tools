@@ -16,12 +16,9 @@ brew install <formula-name>
 
 ## Formulae
 
-| Tool | Install |
-|------|---------|
-| **vyzr** (CLI) | `brew install cordfuse/tools/vyzr` |
-| **vyzr** (desktop app) | `brew install --cask cordfuse/tools/vyzr` |
+_No formulae currently published._
 
-Each Cordfuse project's release pipeline auto-bumps its own formula on tag push.
+The first formula here was `vyzr` (CLI + desktop cask), removed 2026-06-26 when `cordfuse/vyzr` was archived. Future Cordfuse tools that ship a single-machine binary will land their formulae here.
 
 ## Adding a formula
 
