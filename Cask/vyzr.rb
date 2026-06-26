@@ -1,12 +1,12 @@
 cask "vyzr" do
-  version "0.10.3"
+  version "0.10.4"
 
   on_arm do
-    url "https://github.com/cordfuse/vyzr/releases/download/v0.10.3/Vyzr-#{version}-arm64.dmg"
+    url "https://github.com/cordfuse/vyzr/releases/download/v0.10.4/Vyzr-#{version}-arm64.dmg"
     sha256 ""
   end
   on_intel do
-    url "https://github.com/cordfuse/vyzr/releases/download/v0.10.3/Vyzr-#{version}.dmg"
+    url "https://github.com/cordfuse/vyzr/releases/download/v0.10.4/Vyzr-#{version}.dmg"
     sha256 ""
   end
 
